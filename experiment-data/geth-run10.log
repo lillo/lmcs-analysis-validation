@@ -1,0 +1,599 @@
+INFO [05-23|15:36:17.920] Starting Geth in ephemeral dev mode... 
+INFO [05-23|15:36:17.923] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [05-23|15:36:17.923] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [05-23|15:36:17.924] Set global gas cap                       cap=25,000,000
+INFO [05-23|15:36:21.201] Using developer account                  address=0x9954C8aff8eB21D940980F0d85a24C19555320c8
+INFO [05-23|15:36:21.201] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [05-23|15:36:21.201] Writing custom genesis block 
+INFO [05-23|15:36:21.202] Persisted trie from memory database      nodes=13 size=1.90KiB time="85.998µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-23|15:36:21.203] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Berlin: 0, YOLO v3: <nil>, Engine: clique}"
+INFO [05-23|15:36:21.203] Initialising Ethereum protocol           network=1337 dbversion=<nil>
+INFO [05-23|15:36:21.204] Loaded most recent local header          number=0 hash=2c7f7d..7cf90b td=1 age=52y1mo2w
+INFO [05-23|15:36:21.204] Loaded most recent local full block      number=0 hash=2c7f7d..7cf90b td=1 age=52y1mo2w
+INFO [05-23|15:36:21.204] Loaded most recent local fast block      number=0 hash=2c7f7d..7cf90b td=1 age=52y1mo2w
+WARN [05-23|15:36:21.204] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [05-23|15:36:21.204] Rebuilding state snapshot 
+INFO [05-23|15:36:21.204] Resuming state snapshot generation       root=ccee07..472b5e accounts=0 slots=0 storage=0.00B elapsed="486.469µs"
+INFO [05-23|15:36:21.205] Generated state snapshot                 accounts=10 slots=0 storage=412.00B elapsed=1.117ms
+INFO [05-23|15:36:21.292] Allocated fast sync bloom                size=512.00MiB
+WARN [05-23|15:36:21.293] Error reading unclean shutdown markers   error="not found"
+INFO [05-23|15:36:21.293] Starting peer-to-peer node               instance=Geth/v1.10.3-stable-991384a7/linux-amd64/go1.16.3
+WARN [05-23|15:36:21.293] P2P server will be useless, neither dialing nor listening 
+INFO [05-23|15:36:21.293] Initialized state bloom                  items=13 errorrate=0.000 elapsed="24.175µs"
+INFO [05-23|15:36:21.295] Stored checkpoint snapshot to disk       number=0 hash=2c7f7d..7cf90b
+INFO [05-23|15:36:21.296] New local node record                    seq=1 id=8187303aaacbec3c ip=127.0.0.1 udp=0 tcp=0
+INFO [05-23|15:36:21.296] Started P2P networking                   self=enode://149b66af811fe6141cc03f50ecb2b62e21c839f8cc068c36673bab165cec1e67701841e42dfad73aee81aff9ed6e2dd7cfab637a64d58257bdcb14c0260b46b9@127.0.0.1:0
+INFO [05-23|15:36:21.297] IPC endpoint opened                      url=/tmp/geth.ipc
+INFO [05-23|15:36:21.298] HTTP server started                      endpoint=127.0.0.1:8545 prefix= cors= vhosts=localhost
+INFO [05-23|15:36:21.298] Transaction pool price threshold updated price=1,000,000,000
+INFO [05-23|15:36:21.298] Transaction pool price threshold updated price=1
+INFO [05-23|15:36:21.298] Etherbase automatically configured       address=0x9954C8aff8eB21D940980F0d85a24C19555320c8
+WARN [05-23|15:36:21.298] Failed to get free disk space            path= err="failed to call Statfs: no such file or directory"
+INFO [05-23|15:36:21.298] Commit new mining work                   number=1 sealhash=c1783f..0c31e7 uncles=0 txs=0 gas=0 fees=0 elapsed="137.435µs"
+INFO [05-23|15:36:21.298] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:29.738] Your new key was generated               address=0x68dD431b9112838CED5C895fd814E5fA189261a5
+WARN [05-23|15:36:29.738] Please backup your key file!             path=/tmp/go-ethereum-keystore161077576/UTC--2021-05-23T13-36-27.531075691Z--68dd431b9112838ced5c895fd814e5fa189261a5
+WARN [05-23|15:36:29.738] Please remember your password! 
+INFO [05-23|15:36:33.996] Your new key was generated               address=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc
+WARN [05-23|15:36:33.996] Please backup your key file!             path=/tmp/go-ethereum-keystore161077576/UTC--2021-05-23T13-36-31.602992815Z--abde5e1117f4d1cb3ae39ed4206bb083f1829dbc
+WARN [05-23|15:36:33.996] Please remember your password! 
+INFO [05-23|15:36:34.003] Setting new local account                address=0x9954C8aff8eB21D940980F0d85a24C19555320c8
+INFO [05-23|15:36:34.003] Submitted transaction                    hash=0x5ade65eb6a35e2efc52f10fa7bffa0e6cc7c849c66f0277459827645b11a4834 from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=0 recipient=0x68dD431b9112838CED5C895fd814E5fA189261a5 value=100,000,000,000,000,000,000
+INFO [05-23|15:36:34.003] Commit new mining work                   number=1 sealhash=45fda9..96b27d uncles=0 txs=1 gas=21000 fees=2.1e-14 elapsed="508.362µs"
+INFO [05-23|15:36:34.004] Successfully sealed new block            number=1 sealhash=45fda9..96b27d hash=03b453..a5654d elapsed="675.738µs"
+INFO [05-23|15:36:34.004] 🔨 mined potential block                  number=1 hash=03b453..a5654d
+INFO [05-23|15:36:34.004] Commit new mining work                   number=2 sealhash=3d6df0..1a88ba uncles=0 txs=0 gas=0     fees=0       elapsed="262.4µs"
+INFO [05-23|15:36:34.004] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:34.004] Commit new mining work                   number=2 sealhash=3d6df0..1a88ba uncles=0 txs=0 gas=0     fees=0       elapsed="542.626µs"
+INFO [05-23|15:36:34.008] Submitted transaction                    hash=0xaf3a0c5eb34577879d65eb5e814865b262db21314f87b8c24d622348869eeaaa from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=1 recipient=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc value=100,000,000,000,000,000,000
+INFO [05-23|15:36:34.008] Commit new mining work                   number=2 sealhash=44279e..310258 uncles=0 txs=1 gas=21000 fees=2.1e-14 elapsed="414.945µs"
+INFO [05-23|15:36:34.009] Successfully sealed new block            number=2 sealhash=44279e..310258 hash=9d0c86..ec4b93 elapsed="445.353µs"
+INFO [05-23|15:36:34.009] 🔨 mined potential block                  number=2 hash=9d0c86..ec4b93
+INFO [05-23|15:36:34.009] Commit new mining work                   number=3 sealhash=a119dd..700678 uncles=0 txs=0 gas=0     fees=0       elapsed="406.751µs"
+INFO [05-23|15:36:34.009] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:38.250] CPU profiling started                    dump=/tmp/profile
+INFO [05-23|15:36:44.497] Submitted contract creation              hash=0x3a02b4576730af31d1db0cde4f179098c20ed2c7c3e556736eb3bf9b05c4a0c3 from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=2 contract=0x8b5d7ccF9fB98C14eFfDd1f6f3eE90FC5fF5Dffd value=0
+INFO [05-23|15:36:44.497] Commit new mining work                   number=3 sealhash=baf6d0..9643f0 uncles=0 txs=1 gas=193,243 fees=0.00386486 elapsed="632.429µs"
+INFO [05-23|15:36:44.498] Successfully sealed new block            number=3 sealhash=baf6d0..9643f0 hash=bc9f49..57fc8f elapsed="637.289µs"
+INFO [05-23|15:36:44.498] 🔨 mined potential block                  number=3 hash=bc9f49..57fc8f
+INFO [05-23|15:36:44.499] Commit new mining work                   number=4 sealhash=04f4fc..1d898e uncles=0 txs=0 gas=0       fees=0          elapsed="418.601µs"
+INFO [05-23|15:36:44.499] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:44.547] Submitted transaction                    hash=0x050ed05fb9d71a3d9547e0cba0ef19b4a310554079ad5822d5618014339f82a9 from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=3 recipient=0x8b5d7ccF9fB98C14eFfDd1f6f3eE90FC5fF5Dffd value=0
+INFO [05-23|15:36:44.548] Commit new mining work                   number=4 sealhash=3a8059..25c28d uncles=0 txs=1 gas=45738   fees=0.00091476 elapsed="525.09µs"
+INFO [05-23|15:36:44.548] Successfully sealed new block            number=4 sealhash=3a8059..25c28d hash=808ecf..dd440b elapsed="591.402µs"
+INFO [05-23|15:36:44.548] 🔨 mined potential block                  number=4 hash=808ecf..dd440b
+INFO [05-23|15:36:44.549] Commit new mining work                   number=5 sealhash=fc7f94..09128a uncles=0 txs=0 gas=0       fees=0          elapsed="301.985µs"
+INFO [05-23|15:36:44.549] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:44.549] Commit new mining work                   number=5 sealhash=fc7f94..09128a uncles=0 txs=0 gas=0       fees=0          elapsed="690.872µs"
+INFO [05-23|15:36:44.626] Submitted contract creation              hash=0x4d3f1fd5484bd465729d28178958da7afd751615c7971dca9f5f8260d9fa8fba from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=4 contract=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:44.626] Commit new mining work                   number=5 sealhash=50a1f4..4103f6 uncles=0 txs=1 gas=691,120 fees=0.0138224  elapsed="672.292µs"
+INFO [05-23|15:36:44.627] Successfully sealed new block            number=5 sealhash=50a1f4..4103f6 hash=d74dd7..13f9e2 elapsed="602.034µs"
+INFO [05-23|15:36:44.627] 🔨 mined potential block                  number=5 hash=d74dd7..13f9e2
+INFO [05-23|15:36:44.627] Commit new mining work                   number=6 sealhash=dec7db..6c08c5 uncles=0 txs=0 gas=0       fees=0          elapsed="308.022µs"
+INFO [05-23|15:36:44.627] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:44.663] Submitted transaction                    hash=0x77795036ca2aea93ca9a709ee3bd5cbc264b226ec4a8f24fa2c1602f8329900c from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=5 recipient=0x8b5d7ccF9fB98C14eFfDd1f6f3eE90FC5fF5Dffd value=0
+INFO [05-23|15:36:44.663] Commit new mining work                   number=6 sealhash=ce7906..709933 uncles=0 txs=1 gas=28638   fees=0.00057276 elapsed="533.314µs"
+INFO [05-23|15:36:44.664] Successfully sealed new block            number=6 sealhash=ce7906..709933 hash=bd5c2c..1effa5 elapsed="673.809µs"
+INFO [05-23|15:36:44.664] 🔨 mined potential block                  number=6 hash=bd5c2c..1effa5
+INFO [05-23|15:36:44.665] Commit new mining work                   number=7 sealhash=b263ac..90466c uncles=0 txs=0 gas=0       fees=0          elapsed="550.711µs"
+INFO [05-23|15:36:44.665] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:44.665] Commit new mining work                   number=7 sealhash=b263ac..90466c uncles=0 txs=0 gas=0       fees=0          elapsed="968.351µs"
+INFO [05-23|15:36:50.378] Setting new local account                address=0x68dD431b9112838CED5C895fd814E5fA189261a5
+INFO [05-23|15:36:50.379] Submitted transaction                    hash=0x33c8a1725556bdb63cc4a216f48df91c4f4682fbfa8dad42cb46c3fc579d79d5 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=0 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.379] Commit new mining work                   number=7 sealhash=18d957..f032f7 uncles=0 txs=1 gas=43544   fees=0.00087088 elapsed="630.484µs"
+INFO [05-23|15:36:50.380] Successfully sealed new block            number=7 sealhash=18d957..f032f7 hash=5095cd..bfb3c5 elapsed="542.962µs"
+INFO [05-23|15:36:50.380] 🔨 mined potential block                  number=7 hash=5095cd..bfb3c5
+INFO [05-23|15:36:50.380] Commit new mining work                   number=8 sealhash=00c49e..957d99 uncles=0 txs=0 gas=0       fees=0          elapsed="384.91µs"
+INFO [05-23|15:36:50.380] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.392] Setting new local account                address=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc
+INFO [05-23|15:36:50.392] Submitted transaction                    hash=0x86ad1b2ef596921fdaac37828b346d1998ca376d08980b97555e34c167037f3e from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=0 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.393] Commit new mining work                   number=8 sealhash=518516..8ed5e7 uncles=0 txs=1 gas=43587   fees=0.00087174 elapsed="721.306µs"
+INFO [05-23|15:36:50.393] Successfully sealed new block            number=8 sealhash=518516..8ed5e7 hash=838e4c..bd0419 elapsed="708.878µs"
+INFO [05-23|15:36:50.393] 🔗 block reached canonical chain          number=1 hash=03b453..a5654d
+INFO [05-23|15:36:50.393] 🔨 mined potential block                  number=8 hash=838e4c..bd0419
+INFO [05-23|15:36:50.394] Commit new mining work                   number=9 sealhash=7248bb..d0987e uncles=0 txs=0 gas=0       fees=0          elapsed="435.271µs"
+INFO [05-23|15:36:50.394] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.404] Submitted transaction                    hash=0xa9748ad8da7b6f24ffd49fe9a281764868d38b13518220f70bc1700160914c1c from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=1 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.404] Commit new mining work                   number=9 sealhash=360015..f680b2 uncles=0 txs=1 gas=46140   fees=0.0009228  elapsed="534.383µs"
+INFO [05-23|15:36:50.405] Successfully sealed new block            number=9 sealhash=360015..f680b2 hash=ae2771..133641 elapsed="504.942µs"
+INFO [05-23|15:36:50.405] 🔗 block reached canonical chain          number=2 hash=9d0c86..ec4b93
+INFO [05-23|15:36:50.405] 🔨 mined potential block                  number=9 hash=ae2771..133641
+INFO [05-23|15:36:50.405] Commit new mining work                   number=10 sealhash=4edf7f..ee47a6 uncles=0 txs=0 gas=0       fees=0          elapsed="255.947µs"
+INFO [05-23|15:36:50.405] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.406] Commit new mining work                   number=10 sealhash=4edf7f..ee47a6 uncles=0 txs=0 gas=0       fees=0          elapsed="538.495µs"
+INFO [05-23|15:36:50.414] Submitted transaction                    hash=0x3877ccab865a42741563506b7698a3e534698c597d60bcf6298c568bf6b2282c from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=1 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.414] Commit new mining work                   number=10 sealhash=6be80e..d7370b uncles=0 txs=1 gas=46127   fees=0.00092254 elapsed="473.138µs"
+INFO [05-23|15:36:50.415] Successfully sealed new block            number=10 sealhash=6be80e..d7370b hash=269e72..64b7a5 elapsed="505.457µs"
+INFO [05-23|15:36:50.415] 🔗 block reached canonical chain          number=3  hash=bc9f49..57fc8f
+INFO [05-23|15:36:50.415] 🔨 mined potential block                  number=10 hash=269e72..64b7a5
+INFO [05-23|15:36:50.415] Commit new mining work                   number=11 sealhash=c56bf5..ac1f73 uncles=0 txs=0 gas=0       fees=0          elapsed="315.566µs"
+INFO [05-23|15:36:50.416] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.424] Submitted transaction                    hash=0x2743d38b97680d443873c8829540dc84a18171a895f95dfc17e154f80c5848b9 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=2 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.425] Commit new mining work                   number=11 sealhash=2d3320..b81382 uncles=0 txs=1 gas=51775   fees=0.0010355  elapsed="561.419µs"
+INFO [05-23|15:36:50.425] Successfully sealed new block            number=11 sealhash=2d3320..b81382 hash=768cb0..b1a2fa elapsed="470.535µs"
+INFO [05-23|15:36:50.425] 🔗 block reached canonical chain          number=4  hash=808ecf..dd440b
+INFO [05-23|15:36:50.425] 🔨 mined potential block                  number=11 hash=768cb0..b1a2fa
+INFO [05-23|15:36:50.426] Commit new mining work                   number=12 sealhash=59143e..23fc36 uncles=0 txs=0 gas=0       fees=0          elapsed="256.796µs"
+INFO [05-23|15:36:50.426] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.426] Commit new mining work                   number=12 sealhash=59143e..23fc36 uncles=0 txs=0 gas=0       fees=0          elapsed="517.677µs"
+INFO [05-23|15:36:50.435] Submitted transaction                    hash=0xa0e426ba3492992509c3147c04a00256eb88f4dd9950ad92b0a6d72c9afd0b1f from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=2 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.436] Commit new mining work                   number=12 sealhash=5e44ec..29cbce uncles=0 txs=1 gas=51925   fees=0.0010385  elapsed="648.983µs"
+INFO [05-23|15:36:50.436] Successfully sealed new block            number=12 sealhash=5e44ec..29cbce hash=e29cee..6f211f elapsed="484.352µs"
+INFO [05-23|15:36:50.436] 🔗 block reached canonical chain          number=5  hash=d74dd7..13f9e2
+INFO [05-23|15:36:50.436] 🔨 mined potential block                  number=12 hash=e29cee..6f211f
+INFO [05-23|15:36:50.436] Commit new mining work                   number=13 sealhash=e14474..264b83 uncles=0 txs=0 gas=0       fees=0          elapsed="303.874µs"
+INFO [05-23|15:36:50.437] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.443] Submitted transaction                    hash=0xb5734f7b78d2c587eeb6eb7d9e2515f91c5c352e9b58c98210a6b4b7b032a008 from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=6 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.444] Commit new mining work                   number=13 sealhash=b53009..67cfc6 uncles=0 txs=1 gas=44498   fees=0.00088996 elapsed="726.311µs"
+INFO [05-23|15:36:50.445] Successfully sealed new block            number=13 sealhash=b53009..67cfc6 hash=39e314..194fa1 elapsed="517.623µs"
+INFO [05-23|15:36:50.445] 🔗 block reached canonical chain          number=6  hash=bd5c2c..1effa5
+INFO [05-23|15:36:50.445] 🔨 mined potential block                  number=13 hash=39e314..194fa1
+INFO [05-23|15:36:50.445] Commit new mining work                   number=14 sealhash=0df151..a912d6 uncles=0 txs=0 gas=0       fees=0          elapsed="290.634µs"
+INFO [05-23|15:36:50.445] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.463] Submitted transaction                    hash=0xa75b95671597702b23b02db1131d0e941035f61a0cfd594ef66193fbace415a4 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=3 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.464] Commit new mining work                   number=14 sealhash=f4b818..ea6a72 uncles=0 txs=1 gas=43544   fees=0.00087088 elapsed="521.088µs"
+INFO [05-23|15:36:50.465] Successfully sealed new block            number=14 sealhash=f4b818..ea6a72 hash=594885..81439b elapsed="618.798µs"
+INFO [05-23|15:36:50.465] 🔗 block reached canonical chain          number=7  hash=5095cd..bfb3c5
+INFO [05-23|15:36:50.465] 🔨 mined potential block                  number=14 hash=594885..81439b
+INFO [05-23|15:36:50.466] Commit new mining work                   number=15 sealhash=183ad6..25c533 uncles=0 txs=0 gas=0       fees=0          elapsed="542.461µs"
+INFO [05-23|15:36:50.466] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.478] Submitted transaction                    hash=0xfe9771a727678447d6b392ba35df6fdd2d8fe52f5f5aaa72d7753b48a37c0229 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=3 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.478] Commit new mining work                   number=15 sealhash=4c4ae9..dba503 uncles=0 txs=1 gas=43587   fees=0.00087174 elapsed="499.827µs"
+INFO [05-23|15:36:50.479] Successfully sealed new block            number=15 sealhash=4c4ae9..dba503 hash=86c5e9..b77e12 elapsed="640.481µs"
+INFO [05-23|15:36:50.479] 🔗 block reached canonical chain          number=8  hash=838e4c..bd0419
+INFO [05-23|15:36:50.479] 🔨 mined potential block                  number=15 hash=86c5e9..b77e12
+INFO [05-23|15:36:50.479] Commit new mining work                   number=16 sealhash=1b1e76..ea011a uncles=0 txs=0 gas=0       fees=0          elapsed="403.401µs"
+INFO [05-23|15:36:50.480] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.497] Submitted transaction                    hash=0x4a08de09901800cd5f27f7c5fb3e904f68460065c0097e893011a754367b4550 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=4 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.498] Commit new mining work                   number=16 sealhash=402ab6..1829c7 uncles=0 txs=1 gas=46140   fees=0.0009228  elapsed="594.296µs"
+INFO [05-23|15:36:50.498] Successfully sealed new block            number=16 sealhash=402ab6..1829c7 hash=5681c2..33621c elapsed="664.949µs"
+INFO [05-23|15:36:50.499] 🔗 block reached canonical chain          number=9  hash=ae2771..133641
+INFO [05-23|15:36:50.499] 🔨 mined potential block                  number=16 hash=5681c2..33621c
+INFO [05-23|15:36:50.499] Commit new mining work                   number=17 sealhash=270fe9..042108 uncles=0 txs=0 gas=0       fees=0          elapsed="438.703µs"
+INFO [05-23|15:36:50.499] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.529] Submitted transaction                    hash=0x41eea14e7c7be6fd65e358dca85e9fbae17cdf5ca47d16c6b7d2bca43ff97d29 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=4 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.529] Commit new mining work                   number=17 sealhash=45f400..4d0cb0 uncles=0 txs=1 gas=46127   fees=0.00092254 elapsed="518.199µs"
+INFO [05-23|15:36:50.530] Successfully sealed new block            number=17 sealhash=45f400..4d0cb0 hash=cfb7c3..8e6b88 elapsed="654.063µs"
+INFO [05-23|15:36:50.530] 🔗 block reached canonical chain          number=10 hash=269e72..64b7a5
+INFO [05-23|15:36:50.530] 🔨 mined potential block                  number=17 hash=cfb7c3..8e6b88
+INFO [05-23|15:36:50.531] Commit new mining work                   number=18 sealhash=8dc4e4..ccf1c3 uncles=0 txs=0 gas=0       fees=0          elapsed="405.328µs"
+INFO [05-23|15:36:50.531] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.556] Submitted transaction                    hash=0x4b598d496425cbbbbf2ea0eebe4a27806c7559a6b5c2dff3e09bd5ba7ead9913 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=5 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.557] Commit new mining work                   number=18 sealhash=3e3990..8b9212 uncles=0 txs=1 gas=51775   fees=0.0010355  elapsed="742.126µs"
+INFO [05-23|15:36:50.557] Successfully sealed new block            number=18 sealhash=3e3990..8b9212 hash=adfda2..71087c elapsed="526.239µs"
+INFO [05-23|15:36:50.557] 🔗 block reached canonical chain          number=11 hash=768cb0..b1a2fa
+INFO [05-23|15:36:50.557] 🔨 mined potential block                  number=18 hash=adfda2..71087c
+INFO [05-23|15:36:50.558] Commit new mining work                   number=19 sealhash=b6b443..326dc4 uncles=0 txs=0 gas=0       fees=0          elapsed="261.954µs"
+INFO [05-23|15:36:50.558] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.582] Submitted transaction                    hash=0xda1d252cbd2ff3fe3c3a69be189b93f1c9503573ef2d279b33e5a67b694afe18 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=5 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.583] Commit new mining work                   number=19 sealhash=588b34..178aec uncles=0 txs=1 gas=51925   fees=0.0010385  elapsed="593.52µs"
+INFO [05-23|15:36:50.583] Successfully sealed new block            number=19 sealhash=588b34..178aec hash=11262b..e60aab elapsed="704.073µs"
+INFO [05-23|15:36:50.584] 🔗 block reached canonical chain          number=12 hash=e29cee..6f211f
+INFO [05-23|15:36:50.584] 🔨 mined potential block                  number=19 hash=11262b..e60aab
+INFO [05-23|15:36:50.584] Commit new mining work                   number=20 sealhash=460d4a..876f69 uncles=0 txs=0 gas=0       fees=0          elapsed="429.002µs"
+INFO [05-23|15:36:50.584] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.595] Submitted transaction                    hash=0x71783ba7d702eec904e95d0a46fe90d49bc48e4fdeff43d5638bb2d25a73a464 from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=7 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.596] Commit new mining work                   number=20 sealhash=e9a32d..328912 uncles=0 txs=1 gas=34548   fees=0.00069096 elapsed="707.467µs"
+INFO [05-23|15:36:50.596] Successfully sealed new block            number=20 sealhash=e9a32d..328912 hash=541b3b..be433a elapsed="735.49µs"
+INFO [05-23|15:36:50.596] 🔗 block reached canonical chain          number=13 hash=39e314..194fa1
+INFO [05-23|15:36:50.597] 🔨 mined potential block                  number=20 hash=541b3b..be433a
+INFO [05-23|15:36:50.597] Commit new mining work                   number=21 sealhash=f9c70f..55d611 uncles=0 txs=0 gas=0       fees=0          elapsed="412.794µs"
+INFO [05-23|15:36:50.597] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.603] Submitted transaction                    hash=0xd0374c1877d51e0b6529cb33e5938b264fc4c59501683ee07dd58708fbb380c9 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=6 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.604] Commit new mining work                   number=21 sealhash=3c71c6..06b7ed uncles=0 txs=1 gas=43544   fees=0.00087088 elapsed="551.936µs"
+INFO [05-23|15:36:50.604] Successfully sealed new block            number=21 sealhash=3c71c6..06b7ed hash=e86fce..997c69 elapsed="455.886µs"
+INFO [05-23|15:36:50.604] 🔗 block reached canonical chain          number=14 hash=594885..81439b
+INFO [05-23|15:36:50.605] 🔨 mined potential block                  number=21 hash=e86fce..997c69
+INFO [05-23|15:36:50.605] Commit new mining work                   number=22 sealhash=3208df..3dcf50 uncles=0 txs=0 gas=0       fees=0          elapsed="259.554µs"
+INFO [05-23|15:36:50.605] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.605] Commit new mining work                   number=22 sealhash=3208df..3dcf50 uncles=0 txs=0 gas=0       fees=0          elapsed="593.027µs"
+INFO [05-23|15:36:50.613] Submitted transaction                    hash=0xe3ecb321e9a8b104e6be4f2696f229a143f6dcfdbc6c90ebc7346b6afa908845 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=6 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.613] Commit new mining work                   number=22 sealhash=51680c..e080ef uncles=0 txs=1 gas=43587   fees=0.00087174 elapsed="538.729µs"
+INFO [05-23|15:36:50.614] Successfully sealed new block            number=22 sealhash=51680c..e080ef hash=91568f..fe8f0e elapsed="715.39µs"
+INFO [05-23|15:36:50.614] 🔗 block reached canonical chain          number=15 hash=86c5e9..b77e12
+INFO [05-23|15:36:50.614] 🔨 mined potential block                  number=22 hash=91568f..fe8f0e
+INFO [05-23|15:36:50.615] Commit new mining work                   number=23 sealhash=26991c..3f7995 uncles=0 txs=0 gas=0       fees=0          elapsed="404.626µs"
+INFO [05-23|15:36:50.615] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.621] Submitted transaction                    hash=0x4a846a5556c71cc2e7abaedb1a32645504e25a275be06eae70e8e660b320f591 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=7 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.622] Commit new mining work                   number=23 sealhash=d8e4da..8706d5 uncles=0 txs=1 gas=46140   fees=0.0009228  elapsed="509.401µs"
+INFO [05-23|15:36:50.622] Successfully sealed new block            number=23 sealhash=d8e4da..8706d5 hash=23b10f..d67c5c elapsed="529.888µs"
+INFO [05-23|15:36:50.622] 🔗 block reached canonical chain          number=16 hash=5681c2..33621c
+INFO [05-23|15:36:50.622] 🔨 mined potential block                  number=23 hash=23b10f..d67c5c
+INFO [05-23|15:36:50.623] Commit new mining work                   number=24 sealhash=01decc..5408e8 uncles=0 txs=0 gas=0       fees=0          elapsed="279.145µs"
+INFO [05-23|15:36:50.623] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.632] Submitted transaction                    hash=0x8fdc6e3d7be88cab7d89a9df445f704484af46ca8cf19f78d0e28754eb94c5f0 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=7 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.632] Commit new mining work                   number=24 sealhash=d2899e..4b637e uncles=0 txs=1 gas=46127   fees=0.00092254 elapsed="562.556µs"
+INFO [05-23|15:36:50.633] Successfully sealed new block            number=24 sealhash=d2899e..4b637e hash=548e33..a8a309 elapsed="715.671µs"
+INFO [05-23|15:36:50.633] 🔗 block reached canonical chain          number=17 hash=cfb7c3..8e6b88
+INFO [05-23|15:36:50.633] 🔨 mined potential block                  number=24 hash=548e33..a8a309
+INFO [05-23|15:36:50.634] Commit new mining work                   number=25 sealhash=3875e2..894c3e uncles=0 txs=0 gas=0       fees=0          elapsed="416.755µs"
+INFO [05-23|15:36:50.634] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.641] Submitted transaction                    hash=0xee8af9a9b218f34d6db4abefda9f565f10029d2dc58185921f3b8be396ef1e28 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=8 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.642] Commit new mining work                   number=25 sealhash=847adc..fa1b60 uncles=0 txs=1 gas=51775   fees=0.0010355  elapsed="629.957µs"
+INFO [05-23|15:36:50.642] Successfully sealed new block            number=25 sealhash=847adc..fa1b60 hash=ed7b46..f526c4 elapsed="730.574µs"
+INFO [05-23|15:36:50.643] 🔗 block reached canonical chain          number=18 hash=adfda2..71087c
+INFO [05-23|15:36:50.643] 🔨 mined potential block                  number=25 hash=ed7b46..f526c4
+INFO [05-23|15:36:50.643] Commit new mining work                   number=26 sealhash=5d2ef8..9a77ba uncles=0 txs=0 gas=0       fees=0          elapsed="464.661µs"
+INFO [05-23|15:36:50.643] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.650] Submitted transaction                    hash=0x8a802748e4c5b32d237f62bb55d4c09d6f03e99cf4ea24deb474a523094c7fe0 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=8 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.651] Commit new mining work                   number=26 sealhash=d7d74f..62f1b9 uncles=0 txs=1 gas=51925   fees=0.0010385  elapsed="554.541µs"
+INFO [05-23|15:36:50.651] Successfully sealed new block            number=26 sealhash=d7d74f..62f1b9 hash=304796..4aba26 elapsed="529.8µs"
+INFO [05-23|15:36:50.651] 🔗 block reached canonical chain          number=19 hash=11262b..e60aab
+INFO [05-23|15:36:50.651] 🔨 mined potential block                  number=26 hash=304796..4aba26
+INFO [05-23|15:36:50.652] Commit new mining work                   number=27 sealhash=0a4f31..273c23 uncles=0 txs=0 gas=0       fees=0          elapsed="301.689µs"
+INFO [05-23|15:36:50.652] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.652] Commit new mining work                   number=27 sealhash=0a4f31..273c23 uncles=0 txs=0 gas=0       fees=0          elapsed="555.313µs"
+INFO [05-23|15:36:50.659] Submitted transaction                    hash=0x301e5f5e1cfb26e4f7fe20eefe3969cb9a2a69be5ebaa3331caba61d9a653cfd from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=8 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.660] Commit new mining work                   number=27 sealhash=97c65a..a61c21 uncles=0 txs=1 gas=34548   fees=0.00069096 elapsed="645.033µs"
+INFO [05-23|15:36:50.661] Successfully sealed new block            number=27 sealhash=97c65a..a61c21 hash=7a77a2..8aa008 elapsed="526.577µs"
+INFO [05-23|15:36:50.661] 🔗 block reached canonical chain          number=20 hash=541b3b..be433a
+INFO [05-23|15:36:50.661] 🔨 mined potential block                  number=27 hash=7a77a2..8aa008
+INFO [05-23|15:36:50.661] Commit new mining work                   number=28 sealhash=4f410d..eb7484 uncles=0 txs=0 gas=0       fees=0          elapsed="336.266µs"
+INFO [05-23|15:36:50.661] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.668] Submitted transaction                    hash=0xc8e749180195f220c4df633ec20cb486a39112df15df38122b439ad726fd5d7f from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=9 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.668] Commit new mining work                   number=28 sealhash=936d0c..553e31 uncles=0 txs=1 gas=43544   fees=0.00087088 elapsed="467.919µs"
+INFO [05-23|15:36:50.669] Successfully sealed new block            number=28 sealhash=936d0c..553e31 hash=28cac7..3d3877 elapsed="585.623µs"
+INFO [05-23|15:36:50.669] 🔗 block reached canonical chain          number=21 hash=e86fce..997c69
+INFO [05-23|15:36:50.669] 🔨 mined potential block                  number=28 hash=28cac7..3d3877
+INFO [05-23|15:36:50.670] Commit new mining work                   number=29 sealhash=abfc17..485f30 uncles=0 txs=0 gas=0       fees=0          elapsed="413.078µs"
+INFO [05-23|15:36:50.670] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.676] Submitted transaction                    hash=0x921c73a367383fcd656cab767e8d9a996366c38cab8f1e396ce811c8ef60b377 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=9 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.676] Commit new mining work                   number=29 sealhash=f429eb..445dea uncles=0 txs=1 gas=43587   fees=0.00087174 elapsed="448.672µs"
+INFO [05-23|15:36:50.677] Successfully sealed new block            number=29 sealhash=f429eb..445dea hash=5c2dc1..56a661 elapsed="499.323µs"
+INFO [05-23|15:36:50.677] 🔗 block reached canonical chain          number=22 hash=91568f..fe8f0e
+INFO [05-23|15:36:50.677] 🔨 mined potential block                  number=29 hash=5c2dc1..56a661
+INFO [05-23|15:36:50.677] Commit new mining work                   number=30 sealhash=e8d5a8..04a5b9 uncles=0 txs=0 gas=0       fees=0          elapsed="270.72µs"
+INFO [05-23|15:36:50.677] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.677] Commit new mining work                   number=30 sealhash=e8d5a8..04a5b9 uncles=0 txs=0 gas=0       fees=0          elapsed="550.677µs"
+INFO [05-23|15:36:50.688] Submitted transaction                    hash=0xba94509e16b67897c4bde053e90744c395ebaa3b78d4a9207aeb7dd783083c6f from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=10 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.689] Commit new mining work                   number=30 sealhash=368386..85d447 uncles=0 txs=1 gas=46140   fees=0.0009228  elapsed="516.571µs"
+INFO [05-23|15:36:50.689] Successfully sealed new block            number=30 sealhash=368386..85d447 hash=0a53f7..b11361 elapsed="651.277µs"
+INFO [05-23|15:36:50.690] 🔗 block reached canonical chain          number=23 hash=23b10f..d67c5c
+INFO [05-23|15:36:50.690] 🔨 mined potential block                  number=30 hash=0a53f7..b11361
+INFO [05-23|15:36:50.690] Commit new mining work                   number=31 sealhash=949725..0f7444 uncles=0 txs=0 gas=0       fees=0          elapsed="428.49µs"
+INFO [05-23|15:36:50.690] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.697] Submitted transaction                    hash=0xba73b5a70afc8004295a9fe1be34b2d34d3e63030b1251eccda2064a4987142c from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=10 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.698] Commit new mining work                   number=31 sealhash=26e42c..44e46c uncles=0 txs=1 gas=46127   fees=0.00092254 elapsed="478.994µs"
+INFO [05-23|15:36:50.698] Successfully sealed new block            number=31 sealhash=26e42c..44e46c hash=7784bc..52a0b8 elapsed="578.784µs"
+INFO [05-23|15:36:50.698] 🔗 block reached canonical chain          number=24 hash=548e33..a8a309
+INFO [05-23|15:36:50.698] 🔨 mined potential block                  number=31 hash=7784bc..52a0b8
+INFO [05-23|15:36:50.699] Commit new mining work                   number=32 sealhash=ab9502..9e5a48 uncles=0 txs=0 gas=0       fees=0          elapsed="322.717µs"
+INFO [05-23|15:36:50.699] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.712] Submitted transaction                    hash=0x653870bb0c8a1bac26fa8ecd48359b6293dc753f37c78269efe7df672a27abd6 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=11 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.712] Commit new mining work                   number=32 sealhash=fc709b..9833d6 uncles=0 txs=1 gas=51775   fees=0.0010355  elapsed="664.06µs"
+INFO [05-23|15:36:50.713] Successfully sealed new block            number=32 sealhash=fc709b..9833d6 hash=896461..a807f7 elapsed="776.235µs"
+INFO [05-23|15:36:50.713] 🔗 block reached canonical chain          number=25 hash=ed7b46..f526c4
+INFO [05-23|15:36:50.713] 🔨 mined potential block                  number=32 hash=896461..a807f7
+INFO [05-23|15:36:50.714] Commit new mining work                   number=33 sealhash=6c5add..f1d6cf uncles=0 txs=0 gas=0       fees=0          elapsed="446.978µs"
+INFO [05-23|15:36:50.714] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.714] Commit new mining work                   number=33 sealhash=6c5add..f1d6cf uncles=0 txs=0 gas=0       fees=0          elapsed="884.733µs"
+INFO [05-23|15:36:50.722] Submitted transaction                    hash=0xa5c6b3b139b4f29da2bd3ce91af24c6afc9b7e85ccae03aa80f12cdacd00e241 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=11 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.722] Commit new mining work                   number=33 sealhash=47b4fe..0888e9 uncles=0 txs=1 gas=51925   fees=0.0010385  elapsed="631.495µs"
+INFO [05-23|15:36:50.723] Successfully sealed new block            number=33 sealhash=47b4fe..0888e9 hash=2d6143..fa1428 elapsed="783.296µs"
+INFO [05-23|15:36:50.723] 🔗 block reached canonical chain          number=26 hash=304796..4aba26
+INFO [05-23|15:36:50.723] 🔨 mined potential block                  number=33 hash=2d6143..fa1428
+INFO [05-23|15:36:50.724] Commit new mining work                   number=34 sealhash=fd93c2..a01307 uncles=0 txs=0 gas=0       fees=0          elapsed="435.997µs"
+INFO [05-23|15:36:50.724] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.730] Submitted transaction                    hash=0x1c10915e763012cba603fe684997a6501f5fbba320643a463b7842f90787f4c6 from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=9  recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.731] Commit new mining work                   number=34 sealhash=d30266..30c377 uncles=0 txs=1 gas=34548   fees=0.00069096 elapsed="676.322µs"
+INFO [05-23|15:36:50.731] Successfully sealed new block            number=34 sealhash=d30266..30c377 hash=9b966c..ac3e52 elapsed="599.733µs"
+INFO [05-23|15:36:50.731] 🔗 block reached canonical chain          number=27 hash=7a77a2..8aa008
+INFO [05-23|15:36:50.731] 🔨 mined potential block                  number=34 hash=9b966c..ac3e52
+INFO [05-23|15:36:50.732] Commit new mining work                   number=35 sealhash=5a6333..b00b26 uncles=0 txs=0 gas=0       fees=0          elapsed="417.554µs"
+INFO [05-23|15:36:50.732] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.738] Submitted transaction                    hash=0xb449a505fee89043daa913ff9b8e784ecfdccecbb41040d45307d83fe1539346 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=12 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.739] Commit new mining work                   number=35 sealhash=838256..d31cde uncles=0 txs=1 gas=43544   fees=0.00087088 elapsed="513.978µs"
+INFO [05-23|15:36:50.739] Successfully sealed new block            number=35 sealhash=838256..d31cde hash=b6f1a1..a35199 elapsed="650.254µs"
+INFO [05-23|15:36:50.739] 🔗 block reached canonical chain          number=28 hash=28cac7..3d3877
+INFO [05-23|15:36:50.739] 🔨 mined potential block                  number=35 hash=b6f1a1..a35199
+INFO [05-23|15:36:50.740] Commit new mining work                   number=36 sealhash=d2e113..944bb6 uncles=0 txs=0 gas=0       fees=0          elapsed="418.834µs"
+INFO [05-23|15:36:50.740] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.746] Submitted transaction                    hash=0xc354529913d798a3a58f05c750a3c5bd16c309ca6ac5a41a0064a80086516ac2 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=12 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.747] Commit new mining work                   number=36 sealhash=728253..14f24e uncles=0 txs=1 gas=43587   fees=0.00087174 elapsed="594.117µs"
+INFO [05-23|15:36:50.747] Successfully sealed new block            number=36 sealhash=728253..14f24e hash=b647ca..bc8658 elapsed="634.422µs"
+INFO [05-23|15:36:50.747] 🔗 block reached canonical chain          number=29 hash=5c2dc1..56a661
+INFO [05-23|15:36:50.747] 🔨 mined potential block                  number=36 hash=b647ca..bc8658
+INFO [05-23|15:36:50.748] Commit new mining work                   number=37 sealhash=42581e..25ee4b uncles=0 txs=0 gas=0       fees=0          elapsed="418.849µs"
+INFO [05-23|15:36:50.748] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.748] Commit new mining work                   number=37 sealhash=42581e..25ee4b uncles=0 txs=0 gas=0       fees=0          elapsed="718.56µs"
+INFO [05-23|15:36:50.755] Submitted transaction                    hash=0x5b2d1819717cfddbd11954ebe8fb4edb65840e5dd111f9721e27ffd41e4fb274 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=13 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.755] Commit new mining work                   number=37 sealhash=ee00b4..6b18b8 uncles=0 txs=1 gas=46140   fees=0.0009228  elapsed="462.99µs"
+INFO [05-23|15:36:50.755] Successfully sealed new block            number=37 sealhash=ee00b4..6b18b8 hash=61b216..210921 elapsed="482.184µs"
+INFO [05-23|15:36:50.756] 🔗 block reached canonical chain          number=30 hash=0a53f7..b11361
+INFO [05-23|15:36:50.756] 🔨 mined potential block                  number=37 hash=61b216..210921
+INFO [05-23|15:36:50.756] Commit new mining work                   number=38 sealhash=eab211..1697b3 uncles=0 txs=0 gas=0       fees=0          elapsed="260.136µs"
+INFO [05-23|15:36:50.756] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.756] Commit new mining work                   number=38 sealhash=eab211..1697b3 uncles=0 txs=0 gas=0       fees=0          elapsed="529.041µs"
+INFO [05-23|15:36:50.763] Submitted transaction                    hash=0xced3831ff127539bfb9daab69aeef64abc582df4103802a541bb7e070842349d from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=13 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.764] Commit new mining work                   number=38 sealhash=1b979f..a2c07b uncles=0 txs=1 gas=46127   fees=0.00092254 elapsed="531.411µs"
+INFO [05-23|15:36:50.765] Successfully sealed new block            number=38 sealhash=1b979f..a2c07b hash=09d6b1..f6df34 elapsed="816.373µs"
+INFO [05-23|15:36:50.765] 🔗 block reached canonical chain          number=31 hash=7784bc..52a0b8
+INFO [05-23|15:36:50.765] 🔨 mined potential block                  number=38 hash=09d6b1..f6df34
+INFO [05-23|15:36:50.765] Commit new mining work                   number=39 sealhash=91db03..f4e9ab uncles=0 txs=0 gas=0       fees=0          elapsed="270.789µs"
+INFO [05-23|15:36:50.765] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.772] Submitted transaction                    hash=0x4ac340b978fe5a78d6346c7884bd620f5003f6b22e052b24a4f58f84672d4d79 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=14 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.773] Commit new mining work                   number=39 sealhash=18294a..225ab0 uncles=0 txs=1 gas=51775   fees=0.0010355  elapsed="621.121µs"
+INFO [05-23|15:36:50.774] Successfully sealed new block            number=39 sealhash=18294a..225ab0 hash=b9718d..534abc elapsed="738.709µs"
+INFO [05-23|15:36:50.774] 🔗 block reached canonical chain          number=32 hash=896461..a807f7
+INFO [05-23|15:36:50.774] 🔨 mined potential block                  number=39 hash=b9718d..534abc
+INFO [05-23|15:36:50.774] Commit new mining work                   number=40 sealhash=fff1be..a35d67 uncles=0 txs=0 gas=0       fees=0          elapsed="421.433µs"
+INFO [05-23|15:36:50.774] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.781] Submitted transaction                    hash=0xa6dd39547aac9c4504b260931b6b68d8b3180f79ee9a80a0e28f70daef8d5769 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=14 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.781] Commit new mining work                   number=40 sealhash=5cad51..893314 uncles=0 txs=1 gas=51925   fees=0.0010385  elapsed="553.93µs"
+INFO [05-23|15:36:50.782] Successfully sealed new block            number=40 sealhash=5cad51..893314 hash=89f386..9aea5b elapsed="517.631µs"
+INFO [05-23|15:36:50.782] 🔗 block reached canonical chain          number=33 hash=2d6143..fa1428
+INFO [05-23|15:36:50.782] 🔨 mined potential block                  number=40 hash=89f386..9aea5b
+INFO [05-23|15:36:50.782] Commit new mining work                   number=41 sealhash=8b739d..848a5f uncles=0 txs=0 gas=0       fees=0          elapsed="268.205µs"
+INFO [05-23|15:36:50.783] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.783] Commit new mining work                   number=41 sealhash=8b739d..848a5f uncles=0 txs=0 gas=0       fees=0          elapsed="549.66µs"
+INFO [05-23|15:36:50.789] Submitted transaction                    hash=0x847cac3daa44fc2c8bc049337c39983d71c475a68f7fd92483b5b4b95fb5d0c3 from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=10 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.789] Commit new mining work                   number=41 sealhash=fe97a7..7b0467 uncles=0 txs=1 gas=34548   fees=0.00069096 elapsed="730.032µs"
+INFO [05-23|15:36:50.790] Successfully sealed new block            number=41 sealhash=fe97a7..7b0467 hash=adad20..582972 elapsed="527.158µs"
+INFO [05-23|15:36:50.790] 🔗 block reached canonical chain          number=34 hash=9b966c..ac3e52
+INFO [05-23|15:36:50.790] 🔨 mined potential block                  number=41 hash=adad20..582972
+INFO [05-23|15:36:50.790] Commit new mining work                   number=42 sealhash=15fd3f..a8cde2 uncles=0 txs=0 gas=0       fees=0          elapsed="278.117µs"
+INFO [05-23|15:36:50.790] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.791] Commit new mining work                   number=42 sealhash=15fd3f..a8cde2 uncles=0 txs=0 gas=0       fees=0          elapsed="558.582µs"
+INFO [05-23|15:36:50.798] Submitted transaction                    hash=0x8f281b6a089aad16b8bb6c1ca599f52a00c8a79e610649bed55aa9cc01e6d70a from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=15 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.799] Commit new mining work                   number=42 sealhash=88707c..794f4b uncles=0 txs=1 gas=43544   fees=0.00087088 elapsed="552.345µs"
+INFO [05-23|15:36:50.799] Successfully sealed new block            number=42 sealhash=88707c..794f4b hash=4a4a76..f3d15c elapsed="823.525µs"
+INFO [05-23|15:36:50.800] 🔗 block reached canonical chain          number=35 hash=b6f1a1..a35199
+INFO [05-23|15:36:50.800] 🔨 mined potential block                  number=42 hash=4a4a76..f3d15c
+INFO [05-23|15:36:50.800] Commit new mining work                   number=43 sealhash=2c4f30..3ec9de uncles=0 txs=0 gas=0       fees=0          elapsed="417.12µs"
+INFO [05-23|15:36:50.800] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.807] Submitted transaction                    hash=0x078666a47bff95450d7fb4de7c6dd4d5a2fde62dd5443429f738722af90ff92b from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=15 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.807] Commit new mining work                   number=43 sealhash=d8d6a4..21f96b uncles=0 txs=1 gas=43587   fees=0.00087174 elapsed="519.246µs"
+INFO [05-23|15:36:50.808] Successfully sealed new block            number=43 sealhash=d8d6a4..21f96b hash=1a14d1..35986b elapsed="698.228µs"
+INFO [05-23|15:36:50.808] 🔗 block reached canonical chain          number=36 hash=b647ca..bc8658
+INFO [05-23|15:36:50.808] 🔨 mined potential block                  number=43 hash=1a14d1..35986b
+INFO [05-23|15:36:50.808] Commit new mining work                   number=44 sealhash=9d43c4..c3529f uncles=0 txs=0 gas=0       fees=0          elapsed="412.885µs"
+INFO [05-23|15:36:50.809] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.815] Submitted transaction                    hash=0xe04650543dc7fa2a1f14e7934dd8ca788c45bf88bc5dfc6f51ead8d46ecf6db1 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=16 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.816] Commit new mining work                   number=44 sealhash=274894..a6fb52 uncles=0 txs=1 gas=46140   fees=0.0009228  elapsed="502.902µs"
+INFO [05-23|15:36:50.816] Successfully sealed new block            number=44 sealhash=274894..a6fb52 hash=7343e0..c1b623 elapsed="569.153µs"
+INFO [05-23|15:36:50.816] 🔗 block reached canonical chain          number=37 hash=61b216..210921
+INFO [05-23|15:36:50.816] 🔨 mined potential block                  number=44 hash=7343e0..c1b623
+INFO [05-23|15:36:50.817] Commit new mining work                   number=45 sealhash=b0002f..2cb2cb uncles=0 txs=0 gas=0       fees=0          elapsed="287.166µs"
+INFO [05-23|15:36:50.817] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.825] Submitted transaction                    hash=0x1dc42b5e33d474a14ce95e70e7b4b686b66f46ccd6ade88fc20a7339ffccbd61 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=16 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.825] Commit new mining work                   number=45 sealhash=6522bd..272f6a uncles=0 txs=1 gas=46127   fees=0.00092254 elapsed="523.949µs"
+INFO [05-23|15:36:50.826] Successfully sealed new block            number=45 sealhash=6522bd..272f6a hash=d4f030..25a289 elapsed="780.197µs"
+INFO [05-23|15:36:50.826] 🔗 block reached canonical chain          number=38 hash=09d6b1..f6df34
+INFO [05-23|15:36:50.826] 🔨 mined potential block                  number=45 hash=d4f030..25a289
+INFO [05-23|15:36:50.827] Commit new mining work                   number=46 sealhash=fe8be4..1d2731 uncles=0 txs=0 gas=0       fees=0          elapsed="432.665µs"
+INFO [05-23|15:36:50.827] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.833] Submitted transaction                    hash=0xed2143727f7f54a28b8df8efc563d3eb6d34cb328bb184684c164f57d1a2ea97 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=17 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.833] Commit new mining work                   number=46 sealhash=65e605..41d3dd uncles=0 txs=1 gas=51775   fees=0.0010355  elapsed="611.928µs"
+INFO [05-23|15:36:50.834] Successfully sealed new block            number=46 sealhash=65e605..41d3dd hash=ccc902..ee0faf elapsed="769.162µs"
+INFO [05-23|15:36:50.834] 🔗 block reached canonical chain          number=39 hash=b9718d..534abc
+INFO [05-23|15:36:50.834] 🔨 mined potential block                  number=46 hash=ccc902..ee0faf
+INFO [05-23|15:36:50.835] Commit new mining work                   number=47 sealhash=d77cfc..06e21a uncles=0 txs=0 gas=0       fees=0          elapsed="440.349µs"
+INFO [05-23|15:36:50.835] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.842] Submitted transaction                    hash=0x71217b4b143a9363007fbd07f0411572f298401e4d1a5826414de0151cd1e95f from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=17 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.842] Commit new mining work                   number=47 sealhash=4378d8..ce403c uncles=0 txs=1 gas=51925   fees=0.0010385  elapsed="647.691µs"
+INFO [05-23|15:36:50.843] Successfully sealed new block            number=47 sealhash=4378d8..ce403c hash=afc7f8..a3387b elapsed="776.481µs"
+INFO [05-23|15:36:50.843] 🔗 block reached canonical chain          number=40 hash=89f386..9aea5b
+INFO [05-23|15:36:50.843] 🔨 mined potential block                  number=47 hash=afc7f8..a3387b
+INFO [05-23|15:36:50.843] Commit new mining work                   number=48 sealhash=bb9723..e57562 uncles=0 txs=0 gas=0       fees=0          elapsed="341.778µs"
+INFO [05-23|15:36:50.844] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.851] Submitted transaction                    hash=0xd634aa823519d57013312392b30f554b07aa2cb08897c69bbfa3de8257990041 from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=11 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.852] Commit new mining work                   number=48 sealhash=f725d8..642511 uncles=0 txs=1 gas=34548   fees=0.00069096 elapsed="768.564µs"
+INFO [05-23|15:36:50.852] Successfully sealed new block            number=48 sealhash=f725d8..642511 hash=93bf8d..940bd1 elapsed="632.43µs"
+INFO [05-23|15:36:50.852] 🔗 block reached canonical chain          number=41 hash=adad20..582972
+INFO [05-23|15:36:50.852] 🔨 mined potential block                  number=48 hash=93bf8d..940bd1
+INFO [05-23|15:36:50.853] Commit new mining work                   number=49 sealhash=c9f96c..2743db uncles=0 txs=0 gas=0       fees=0          elapsed="291.194µs"
+INFO [05-23|15:36:50.853] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.859] Submitted transaction                    hash=0x3f403b3ed9f377040e81a0871aae23c7b7fbd9a7553be1bc8f7e51c2ef5ce064 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=18 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.860] Commit new mining work                   number=49 sealhash=377d43..c33cb7 uncles=0 txs=1 gas=43544   fees=0.00087088 elapsed="573.634µs"
+INFO [05-23|15:36:50.860] Successfully sealed new block            number=49 sealhash=377d43..c33cb7 hash=3198c4..328b6c elapsed="714.887µs"
+INFO [05-23|15:36:50.860] 🔗 block reached canonical chain          number=42 hash=4a4a76..f3d15c
+INFO [05-23|15:36:50.861] 🔨 mined potential block                  number=49 hash=3198c4..328b6c
+INFO [05-23|15:36:50.861] Commit new mining work                   number=50 sealhash=5e63e9..b683f2 uncles=0 txs=0 gas=0       fees=0          elapsed="416.743µs"
+INFO [05-23|15:36:50.861] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.867] Submitted transaction                    hash=0xfbcfc3bc5aa90959305369be55fc65b5fe1b88f46d6c9aa8bf11207d03eab0c8 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=18 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.868] Commit new mining work                   number=50 sealhash=4aa97f..c83071 uncles=0 txs=1 gas=43587   fees=0.00087174 elapsed="637.514µs"
+INFO [05-23|15:36:50.869] Successfully sealed new block            number=50 sealhash=4aa97f..c83071 hash=47ba0d..742874 elapsed="656.748µs"
+INFO [05-23|15:36:50.869] 🔗 block reached canonical chain          number=43 hash=1a14d1..35986b
+INFO [05-23|15:36:50.869] 🔨 mined potential block                  number=50 hash=47ba0d..742874
+INFO [05-23|15:36:50.869] Commit new mining work                   number=51 sealhash=d6539c..c9c0c9 uncles=0 txs=0 gas=0       fees=0          elapsed="417.637µs"
+INFO [05-23|15:36:50.869] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.876] Submitted transaction                    hash=0xc92196ffc76223061726c6c8d5b8c6180fd69397fbcedcc84073102955e90637 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=19 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.876] Commit new mining work                   number=51 sealhash=c79fef..08cd25 uncles=0 txs=1 gas=46140   fees=0.0009228  elapsed="516.774µs"
+INFO [05-23|15:36:50.876] Successfully sealed new block            number=51 sealhash=c79fef..08cd25 hash=0d94b1..7aca2a elapsed="496.629µs"
+INFO [05-23|15:36:50.877] 🔗 block reached canonical chain          number=44 hash=7343e0..c1b623
+INFO [05-23|15:36:50.877] 🔨 mined potential block                  number=51 hash=0d94b1..7aca2a
+INFO [05-23|15:36:50.877] Commit new mining work                   number=52 sealhash=c1d6e5..994208 uncles=0 txs=0 gas=0       fees=0          elapsed="292.209µs"
+INFO [05-23|15:36:50.877] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.885] Submitted transaction                    hash=0xc6ef3cceb60507f8ddf8f7b1accc20b18865dfbabaa3090a2b07b276721646e8 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=19 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.886] Commit new mining work                   number=52 sealhash=415bd0..6bae12 uncles=0 txs=1 gas=46127   fees=0.00092254 elapsed="502.138µs"
+INFO [05-23|15:36:50.886] Successfully sealed new block            number=52 sealhash=415bd0..6bae12 hash=32d830..dca299 elapsed="589.052µs"
+INFO [05-23|15:36:50.886] 🔗 block reached canonical chain          number=45 hash=d4f030..25a289
+INFO [05-23|15:36:50.886] 🔨 mined potential block                  number=52 hash=32d830..dca299
+INFO [05-23|15:36:50.887] Commit new mining work                   number=53 sealhash=296cff..bffba1 uncles=0 txs=0 gas=0       fees=0          elapsed="291.405µs"
+INFO [05-23|15:36:50.887] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.894] Submitted transaction                    hash=0xfe449ff745bc7fc6771290dab7a4b7568ec5b4a40f7a1b8d59175428861ed797 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=20 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.895] Commit new mining work                   number=53 sealhash=4a686c..41a950 uncles=0 txs=1 gas=51775   fees=0.0010355  elapsed="671.216µs"
+INFO [05-23|15:36:50.895] Successfully sealed new block            number=53 sealhash=4a686c..41a950 hash=4cc656..25f879 elapsed="604.525µs"
+INFO [05-23|15:36:50.896] 🔗 block reached canonical chain          number=46 hash=ccc902..ee0faf
+INFO [05-23|15:36:50.896] 🔨 mined potential block                  number=53 hash=4cc656..25f879
+INFO [05-23|15:36:50.896] Commit new mining work                   number=54 sealhash=cb98d3..76834f uncles=0 txs=0 gas=0       fees=0          elapsed="428.246µs"
+INFO [05-23|15:36:50.896] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.903] Submitted transaction                    hash=0x06ecc79012a17c292dedd9f79d91ef8d256bb1ed96f66d2b6eb71b5351c3b2ca from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=20 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.904] Commit new mining work                   number=54 sealhash=68f799..224b5f uncles=0 txs=1 gas=51925   fees=0.0010385  elapsed="617.501µs"
+INFO [05-23|15:36:50.905] Successfully sealed new block            number=54 sealhash=68f799..224b5f hash=cd1c00..53baa1 elapsed="744.47µs"
+INFO [05-23|15:36:50.905] 🔗 block reached canonical chain          number=47 hash=afc7f8..a3387b
+INFO [05-23|15:36:50.905] 🔨 mined potential block                  number=54 hash=cd1c00..53baa1
+INFO [05-23|15:36:50.906] Commit new mining work                   number=55 sealhash=bba87b..b32089 uncles=0 txs=0 gas=0       fees=0          elapsed="426.111µs"
+INFO [05-23|15:36:50.906] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.912] Submitted transaction                    hash=0x0c845a1a226bb4f009c875bff0cf53580cd0cf0585e6779c3a682716c1e9e092 from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=12 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.913] Commit new mining work                   number=55 sealhash=8014fe..5a14da uncles=0 txs=1 gas=34548   fees=0.00069096 elapsed="761.935µs"
+INFO [05-23|15:36:50.913] Successfully sealed new block            number=55 sealhash=8014fe..5a14da hash=50f362..cb15d2 elapsed="826.67µs"
+INFO [05-23|15:36:50.914] 🔗 block reached canonical chain          number=48 hash=93bf8d..940bd1
+INFO [05-23|15:36:50.914] 🔨 mined potential block                  number=55 hash=50f362..cb15d2
+INFO [05-23|15:36:50.914] Commit new mining work                   number=56 sealhash=b46620..69d585 uncles=0 txs=0 gas=0       fees=0          elapsed="439.276µs"
+INFO [05-23|15:36:50.914] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.921] Submitted transaction                    hash=0x30652825c6126607543e3a9c56138c72ea51ba4b07ed4069fe418665725a4e2a from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=21 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.921] Commit new mining work                   number=56 sealhash=cb3673..5c0f67 uncles=0 txs=1 gas=43544   fees=0.00087088 elapsed="493.944µs"
+INFO [05-23|15:36:50.922] Successfully sealed new block            number=56 sealhash=cb3673..5c0f67 hash=65706a..17d6ff elapsed="611.714µs"
+INFO [05-23|15:36:50.922] 🔗 block reached canonical chain          number=49 hash=3198c4..328b6c
+INFO [05-23|15:36:50.922] 🔨 mined potential block                  number=56 hash=65706a..17d6ff
+INFO [05-23|15:36:50.922] Commit new mining work                   number=57 sealhash=1254e4..fd797f uncles=0 txs=0 gas=0       fees=0          elapsed="336.235µs"
+INFO [05-23|15:36:50.922] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.930] Submitted transaction                    hash=0x4b03b9aad2e37c2346f058297c3e5fdd83362d8946eb3a6f7b9ce34d19df9821 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=21 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.930] Commit new mining work                   number=57 sealhash=5a90f9..83c38b uncles=0 txs=1 gas=43587   fees=0.00087174 elapsed="464.251µs"
+INFO [05-23|15:36:50.931] Successfully sealed new block            number=57 sealhash=5a90f9..83c38b hash=e91691..29ae50 elapsed="697.844µs"
+INFO [05-23|15:36:50.931] 🔗 block reached canonical chain          number=50 hash=47ba0d..742874
+INFO [05-23|15:36:50.931] 🔨 mined potential block                  number=57 hash=e91691..29ae50
+INFO [05-23|15:36:50.931] Commit new mining work                   number=58 sealhash=d459a6..1277c9 uncles=0 txs=0 gas=0       fees=0          elapsed="371.36µs"
+INFO [05-23|15:36:50.931] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.941] Submitted transaction                    hash=0x95a8cdfc83f869e8bb269bca3f8dfd104acdb04834c1f1d3a5892f42371e56d7 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=22 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.941] Commit new mining work                   number=58 sealhash=1b4aeb..a8ea71 uncles=0 txs=1 gas=46140   fees=0.0009228  elapsed="581.516µs"
+INFO [05-23|15:36:50.942] Successfully sealed new block            number=58 sealhash=1b4aeb..a8ea71 hash=247fbf..d9ed82 elapsed="635.098µs"
+INFO [05-23|15:36:50.942] 🔗 block reached canonical chain          number=51 hash=0d94b1..7aca2a
+INFO [05-23|15:36:50.942] 🔨 mined potential block                  number=58 hash=247fbf..d9ed82
+INFO [05-23|15:36:50.942] Commit new mining work                   number=59 sealhash=a6e1fd..09b20f uncles=0 txs=0 gas=0       fees=0          elapsed="264.652µs"
+INFO [05-23|15:36:50.943] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.951] Submitted transaction                    hash=0x37329bce27abd564faafc0a58f9f7c4641ff81e26f7b2815049e9206b255f175 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=22 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.952] Commit new mining work                   number=59 sealhash=ef176b..5326f7 uncles=0 txs=1 gas=46127   fees=0.00092254 elapsed="454.374µs"
+INFO [05-23|15:36:50.952] Successfully sealed new block            number=59 sealhash=ef176b..5326f7 hash=5e9b4c..ed3fc1 elapsed="644.574µs"
+INFO [05-23|15:36:50.952] 🔗 block reached canonical chain          number=52 hash=32d830..dca299
+INFO [05-23|15:36:50.952] 🔨 mined potential block                  number=59 hash=5e9b4c..ed3fc1
+INFO [05-23|15:36:50.953] Commit new mining work                   number=60 sealhash=6eca41..36a6cf uncles=0 txs=0 gas=0       fees=0          elapsed="280.357µs"
+INFO [05-23|15:36:50.953] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.953] Commit new mining work                   number=60 sealhash=6eca41..36a6cf uncles=0 txs=0 gas=0       fees=0          elapsed="670.601µs"
+INFO [05-23|15:36:50.960] Submitted transaction                    hash=0xeee04b09000119adec0ec75694aad0977b0b8b164c1dcd13634e3e253136bd7a from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=23 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.961] Commit new mining work                   number=60 sealhash=e0c419..59c01f uncles=0 txs=1 gas=51775   fees=0.0010355  elapsed="578.083µs"
+INFO [05-23|15:36:50.962] Successfully sealed new block            number=60 sealhash=e0c419..59c01f hash=583f26..b4af8b elapsed="684.077µs"
+INFO [05-23|15:36:50.962] 🔗 block reached canonical chain          number=53 hash=4cc656..25f879
+INFO [05-23|15:36:50.962] 🔨 mined potential block                  number=60 hash=583f26..b4af8b
+INFO [05-23|15:36:50.962] Commit new mining work                   number=61 sealhash=dc8f7f..ab9848 uncles=0 txs=0 gas=0       fees=0          elapsed="433.253µs"
+INFO [05-23|15:36:50.962] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.969] Submitted transaction                    hash=0x5c0cb9e91292e28a5ba42097eebb861778a73d2291f615a0d3407b7d45ae06f5 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=23 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.969] Commit new mining work                   number=61 sealhash=3438bb..3542b0 uncles=0 txs=1 gas=51925   fees=0.0010385  elapsed="548.778µs"
+INFO [05-23|15:36:50.970] Successfully sealed new block            number=61 sealhash=3438bb..3542b0 hash=3d6f62..d75bff elapsed="494.785µs"
+INFO [05-23|15:36:50.970] 🔗 block reached canonical chain          number=54 hash=cd1c00..53baa1
+INFO [05-23|15:36:50.970] 🔨 mined potential block                  number=61 hash=3d6f62..d75bff
+INFO [05-23|15:36:50.970] Commit new mining work                   number=62 sealhash=133586..52eded uncles=0 txs=0 gas=0       fees=0          elapsed="290.943µs"
+INFO [05-23|15:36:50.971] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.971] Commit new mining work                   number=62 sealhash=133586..52eded uncles=0 txs=0 gas=0       fees=0          elapsed="554.402µs"
+INFO [05-23|15:36:50.978] Submitted transaction                    hash=0x40c738bbf016a6b8d124ad329988e5300cf1c976f169614ff816a3f8f75f39b3 from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=13 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:50.979] Commit new mining work                   number=62 sealhash=896d7b..d9dc46 uncles=0 txs=1 gas=34548   fees=0.00069096 elapsed="743.85µs"
+INFO [05-23|15:36:50.979] Successfully sealed new block            number=62 sealhash=896d7b..d9dc46 hash=7ec2bb..2da9d0 elapsed="678.786µs"
+INFO [05-23|15:36:50.979] 🔗 block reached canonical chain          number=55 hash=50f362..cb15d2
+INFO [05-23|15:36:50.979] 🔨 mined potential block                  number=62 hash=7ec2bb..2da9d0
+INFO [05-23|15:36:50.980] Commit new mining work                   number=63 sealhash=1f9dc0..073182 uncles=0 txs=0 gas=0       fees=0          elapsed="382.468µs"
+INFO [05-23|15:36:50.980] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.989] Submitted transaction                    hash=0x7ed1b6843cb2d93828df354a4d84d8ffe28b0a0349b4e0a765ea6209ee91f5c1 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=24 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.989] Commit new mining work                   number=63 sealhash=184ee3..634201 uncles=0 txs=1 gas=43544   fees=0.00087088 elapsed="516.794µs"
+INFO [05-23|15:36:50.990] Successfully sealed new block            number=63 sealhash=184ee3..634201 hash=d1ae33..990564 elapsed="769.032µs"
+INFO [05-23|15:36:50.990] 🔗 block reached canonical chain          number=56 hash=65706a..17d6ff
+INFO [05-23|15:36:50.990] 🔨 mined potential block                  number=63 hash=d1ae33..990564
+INFO [05-23|15:36:50.991] Commit new mining work                   number=64 sealhash=71c2ae..c29ba6 uncles=0 txs=0 gas=0       fees=0          elapsed="434.58µs"
+INFO [05-23|15:36:50.991] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.997] Submitted transaction                    hash=0xfd8b3cd4103537097d816f1d8b45e36b916a32dece2db018c00cd7331df02af6 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=24 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:50.997] Commit new mining work                   number=64 sealhash=8f6882..0d3719 uncles=0 txs=1 gas=43587   fees=0.00087174 elapsed="518.306µs"
+INFO [05-23|15:36:50.998] Successfully sealed new block            number=64 sealhash=8f6882..0d3719 hash=112071..019359 elapsed="542.265µs"
+INFO [05-23|15:36:50.998] 🔗 block reached canonical chain          number=57 hash=e91691..29ae50
+INFO [05-23|15:36:50.998] 🔨 mined potential block                  number=64 hash=112071..019359
+INFO [05-23|15:36:50.998] Commit new mining work                   number=65 sealhash=8f620c..ef1212 uncles=0 txs=0 gas=0       fees=0          elapsed="287.403µs"
+INFO [05-23|15:36:50.998] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:50.998] Commit new mining work                   number=65 sealhash=8f620c..ef1212 uncles=0 txs=0 gas=0       fees=0          elapsed="508.303µs"
+INFO [05-23|15:36:51.005] Submitted transaction                    hash=0xf7664530dd5ec813e3059db218bb17198242a4599b89a11f27885c519f61bd8a from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=25 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:51.005] Commit new mining work                   number=65 sealhash=cacf60..e27aad uncles=0 txs=1 gas=46140   fees=0.0009228  elapsed="473.643µs"
+INFO [05-23|15:36:51.006] Successfully sealed new block            number=65 sealhash=cacf60..e27aad hash=78b169..3d5b2c elapsed="782.792µs"
+INFO [05-23|15:36:51.006] 🔗 block reached canonical chain          number=58 hash=247fbf..d9ed82
+INFO [05-23|15:36:51.006] 🔨 mined potential block                  number=65 hash=78b169..3d5b2c
+INFO [05-23|15:36:51.006] Commit new mining work                   number=66 sealhash=201702..b35c11 uncles=0 txs=0 gas=0       fees=0          elapsed="433.832µs"
+INFO [05-23|15:36:51.007] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:51.013] Submitted transaction                    hash=0xae8a1dc29653447350221fd9248fb570165182d18ab18309623d313f3066c82b from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=25 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:51.014] Commit new mining work                   number=66 sealhash=a467c6..512099 uncles=0 txs=1 gas=46127   fees=0.00092254 elapsed="514.003µs"
+INFO [05-23|15:36:51.014] Successfully sealed new block            number=66 sealhash=a467c6..512099 hash=860b2c..397570 elapsed="522.647µs"
+INFO [05-23|15:36:51.014] 🔗 block reached canonical chain          number=59 hash=5e9b4c..ed3fc1
+INFO [05-23|15:36:51.014] 🔨 mined potential block                  number=66 hash=860b2c..397570
+INFO [05-23|15:36:51.015] Commit new mining work                   number=67 sealhash=0bca04..39acec uncles=0 txs=0 gas=0       fees=0          elapsed="411.098µs"
+INFO [05-23|15:36:51.015] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:51.021] Submitted transaction                    hash=0xf2069314066bad5e8838318cf588fed622894dff215d85b9c2588eb054f80b50 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=26 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:51.022] Commit new mining work                   number=67 sealhash=016302..2e0c46 uncles=0 txs=1 gas=51775   fees=0.0010355  elapsed="500.819µs"
+INFO [05-23|15:36:51.022] Successfully sealed new block            number=67 sealhash=016302..2e0c46 hash=af6eab..7b3c07 elapsed="628.059µs"
+INFO [05-23|15:36:51.022] 🔗 block reached canonical chain          number=60 hash=583f26..b4af8b
+INFO [05-23|15:36:51.022] 🔨 mined potential block                  number=67 hash=af6eab..7b3c07
+INFO [05-23|15:36:51.023] Commit new mining work                   number=68 sealhash=98f7e7..bfb034 uncles=0 txs=0 gas=0       fees=0          elapsed="389.791µs"
+INFO [05-23|15:36:51.023] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:51.030] Submitted transaction                    hash=0x72e8bc4b6221ca4f20628ce8830c018a1a95e5072e3496b88a0f3806a773f17a from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=26 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:51.030] Commit new mining work                   number=68 sealhash=23f49f..718633 uncles=0 txs=1 gas=51925   fees=0.0010385  elapsed="563.1µs"
+INFO [05-23|15:36:51.031] Successfully sealed new block            number=68 sealhash=23f49f..718633 hash=176d55..8342b1 elapsed="535.011µs"
+INFO [05-23|15:36:51.031] 🔗 block reached canonical chain          number=61 hash=3d6f62..d75bff
+INFO [05-23|15:36:51.031] 🔨 mined potential block                  number=68 hash=176d55..8342b1
+INFO [05-23|15:36:51.031] Commit new mining work                   number=69 sealhash=62a186..370483 uncles=0 txs=0 gas=0       fees=0          elapsed="293.768µs"
+INFO [05-23|15:36:51.032] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:51.037] Submitted transaction                    hash=0xe2ba7deb6f188ff0ac1ec879b93856e09a5987570fd94df15adc285c340be204 from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=14 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:51.038] Commit new mining work                   number=69 sealhash=71d1dd..5c1163 uncles=0 txs=1 gas=34548   fees=0.00069096 elapsed="754.628µs"
+INFO [05-23|15:36:51.039] Successfully sealed new block            number=69 sealhash=71d1dd..5c1163 hash=ae9ab5..6b9ac2 elapsed="976.354µs"
+INFO [05-23|15:36:51.039] 🔗 block reached canonical chain          number=62 hash=7ec2bb..2da9d0
+INFO [05-23|15:36:51.039] 🔨 mined potential block                  number=69 hash=ae9ab5..6b9ac2
+INFO [05-23|15:36:51.040] Commit new mining work                   number=70 sealhash=77a7f0..f3ec28 uncles=0 txs=0 gas=0       fees=0          elapsed="403.945µs"
+INFO [05-23|15:36:51.040] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:51.045] Submitted transaction                    hash=0xcbfa1a259c282bfacb88acb1ea5ae4d7c913cd8b41738f192b4c1103769a3051 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=27 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:51.045] Commit new mining work                   number=70 sealhash=6502d5..cf5c03 uncles=0 txs=1 gas=43544   fees=0.00087088 elapsed="434.463µs"
+INFO [05-23|15:36:51.046] Successfully sealed new block            number=70 sealhash=6502d5..cf5c03 hash=1e1b56..2fdf65 elapsed="644.455µs"
+INFO [05-23|15:36:51.046] 🔗 block reached canonical chain          number=63 hash=d1ae33..990564
+INFO [05-23|15:36:51.046] 🔨 mined potential block                  number=70 hash=1e1b56..2fdf65
+INFO [05-23|15:36:51.047] Commit new mining work                   number=71 sealhash=c780e1..fef6b2 uncles=0 txs=0 gas=0       fees=0          elapsed="421.265µs"
+INFO [05-23|15:36:51.047] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:51.054] Submitted transaction                    hash=0x8519c3d8573e0dfce5c2b7f54966ac0c982eb40600dc618dcaf13f0174d5e938 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=27 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=200,000,000,000,000,000
+INFO [05-23|15:36:51.054] Commit new mining work                   number=71 sealhash=161d4c..e32481 uncles=0 txs=1 gas=43587   fees=0.00087174 elapsed="486.345µs"
+INFO [05-23|15:36:51.055] Successfully sealed new block            number=71 sealhash=161d4c..e32481 hash=28ea82..0335c7 elapsed="537.289µs"
+INFO [05-23|15:36:51.055] 🔗 block reached canonical chain          number=64 hash=112071..019359
+INFO [05-23|15:36:51.055] 🔨 mined potential block                  number=71 hash=28ea82..0335c7
+INFO [05-23|15:36:51.055] Commit new mining work                   number=72 sealhash=a7c3bc..673ce6 uncles=0 txs=0 gas=0       fees=0          elapsed="425.116µs"
+INFO [05-23|15:36:51.055] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:51.062] Submitted transaction                    hash=0x7caca80f08de39756583e5710d9ebaf94446f0029cfdbde8616b78f8783f25d8 from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=28 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:51.063] Commit new mining work                   number=72 sealhash=13255e..670457 uncles=0 txs=1 gas=46140   fees=0.0009228  elapsed="443.057µs"
+INFO [05-23|15:36:51.063] Successfully sealed new block            number=72 sealhash=13255e..670457 hash=51bf32..3f2f6c elapsed="561.254µs"
+INFO [05-23|15:36:51.063] 🔗 block reached canonical chain          number=65 hash=78b169..3d5b2c
+INFO [05-23|15:36:51.063] 🔨 mined potential block                  number=72 hash=51bf32..3f2f6c
+INFO [05-23|15:36:51.064] Commit new mining work                   number=73 sealhash=d588a7..00c032 uncles=0 txs=0 gas=0       fees=0          elapsed="264.389µs"
+INFO [05-23|15:36:51.064] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:51.064] Commit new mining work                   number=73 sealhash=d588a7..00c032 uncles=0 txs=0 gas=0       fees=0          elapsed="614.867µs"
+INFO [05-23|15:36:51.071] Submitted transaction                    hash=0xc1ce87be40fc7558a8a794dd56b21a9d761b80196ea74f928941b7bcf553def5 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=28 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:51.072] Commit new mining work                   number=73 sealhash=53e44a..58285f uncles=0 txs=1 gas=46127   fees=0.00092254 elapsed="542.384µs"
+INFO [05-23|15:36:51.072] Successfully sealed new block            number=73 sealhash=53e44a..58285f hash=41ee34..725d39 elapsed="797.776µs"
+INFO [05-23|15:36:51.073] 🔗 block reached canonical chain          number=66 hash=860b2c..397570
+INFO [05-23|15:36:51.073] 🔨 mined potential block                  number=73 hash=41ee34..725d39
+INFO [05-23|15:36:51.073] Commit new mining work                   number=74 sealhash=d4dd80..e35147 uncles=0 txs=0 gas=0       fees=0          elapsed="422.042µs"
+INFO [05-23|15:36:51.073] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:51.080] Submitted transaction                    hash=0x407547f8f6e7ec6cb9ab88f61fb97ef11b2de282946d7a13a078d2ebab353c8c from=0x68dD431b9112838CED5C895fd814E5fA189261a5 nonce=29 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:51.080] Commit new mining work                   number=74 sealhash=f496af..d5fd66 uncles=0 txs=1 gas=51775   fees=0.0010355  elapsed="534.686µs"
+INFO [05-23|15:36:51.081] Successfully sealed new block            number=74 sealhash=f496af..d5fd66 hash=3bcc1e..105dbf elapsed="709.819µs"
+INFO [05-23|15:36:51.081] 🔗 block reached canonical chain          number=67 hash=af6eab..7b3c07
+INFO [05-23|15:36:51.081] 🔨 mined potential block                  number=74 hash=3bcc1e..105dbf
+INFO [05-23|15:36:51.081] Commit new mining work                   number=75 sealhash=5a3a90..5c936b uncles=0 txs=0 gas=0       fees=0          elapsed="439.96µs"
+INFO [05-23|15:36:51.081] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:51.088] Submitted transaction                    hash=0x2e7651420032491512f798093a0c546010614f94af1e8d7ef96c081dabe33a60 from=0xaBDE5e1117f4d1cB3Ae39eD4206bB083F1829dbc nonce=29 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:51.089] Commit new mining work                   number=75 sealhash=257810..174bb9 uncles=0 txs=1 gas=51925   fees=0.0010385  elapsed="548.389µs"
+INFO [05-23|15:36:51.089] Successfully sealed new block            number=75 sealhash=257810..174bb9 hash=18033d..234d40 elapsed="562.233µs"
+INFO [05-23|15:36:51.090] 🔗 block reached canonical chain          number=68 hash=176d55..8342b1
+INFO [05-23|15:36:51.090] 🔨 mined potential block                  number=75 hash=18033d..234d40
+INFO [05-23|15:36:51.090] Commit new mining work                   number=76 sealhash=e9542f..862bbb uncles=0 txs=0 gas=0       fees=0          elapsed="353.258µs"
+INFO [05-23|15:36:51.090] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:51.097] Submitted transaction                    hash=0xddff5374f7b96e37cbcb0a7d6d456651ff99bf6e660ffe6ccb8cead3e7225d39 from=0x9954C8aff8eB21D940980F0d85a24C19555320c8 nonce=15 recipient=0x6d8541d248E1d156b4b3F5D3be4F2a31576A006D value=0
+INFO [05-23|15:36:51.097] Commit new mining work                   number=76 sealhash=a94d66..69ac35 uncles=0 txs=1 gas=34548   fees=0.00069096 elapsed="654.484µs"
+INFO [05-23|15:36:51.098] Successfully sealed new block            number=76 sealhash=a94d66..69ac35 hash=7d6de7..d38f18 elapsed="652.406µs"
+INFO [05-23|15:36:51.098] 🔗 block reached canonical chain          number=69 hash=ae9ab5..6b9ac2
+INFO [05-23|15:36:51.098] 🔨 mined potential block                  number=76 hash=7d6de7..d38f18
+INFO [05-23|15:36:51.098] Commit new mining work                   number=77 sealhash=8ab7bc..84eb58 uncles=0 txs=0 gas=0       fees=0          elapsed="278.672µs"
+INFO [05-23|15:36:51.098] Sealing paused, waiting for transactions 
+INFO [05-23|15:36:55.170] Got interrupt, shutting down... 
+INFO [05-23|15:36:55.171] HTTP server stopped                      endpoint=127.0.0.1:8545
+INFO [05-23|15:36:55.171] IPC endpoint closed                      url=/tmp/geth.ipc
+INFO [05-23|15:36:55.190] Deallocated state bloom                  items=13 errorrate=0.000
+INFO [05-23|15:36:55.190] Ethereum protocol stopped 
+INFO [05-23|15:36:55.190] Transaction pool stopped 
+INFO [05-23|15:36:55.191] Writing cached state to disk             block=76 hash=7d6de7..d38f18 root=41ca72..5db799
+INFO [05-23|15:36:55.191] Persisted trie from memory database      nodes=16 size=2.32KiB   time="187.82µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=347 livesize=65.01KiB
+INFO [05-23|15:36:55.191] Writing cached state to disk             block=75 hash=18033d..234d40 root=c65071..5184f0
+INFO [05-23|15:36:55.191] Persisted trie from memory database      nodes=13 size=1.99KiB   time="157.69µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=334 livesize=63.03KiB
+INFO [05-23|15:36:55.192] Writing snapshot state to disk           root=ccee07..472b5e
+INFO [05-23|15:36:55.192] Persisted trie from memory database      nodes=0  size=0.00B     time="2.173µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=334 livesize=63.03KiB
+INFO [05-23|15:36:55.192] Blockchain stopped 
+INFO [05-23|15:36:55.196] Done writing CPU profile                 dump=/tmp/profile

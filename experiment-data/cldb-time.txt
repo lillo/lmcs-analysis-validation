@@ -1,0 +1,48 @@
+Here we report the average time of performing the analysis with cldb 
+(below the raw data for the 10 runs).
+
+The average time is 4.4ms where
+- Analysis of the bytecode completed in 4.3052342ms
+- Net built in 6.2µs
+
+Raw data for each run.
+
+RUN 1:
+- Analysis of the bytecode completed in 4.709344ms
+- Net built in 5.072µs
+
+RUN 2:
+- Analysis of the bytecode completed in 4.067683ms
+- Net built in 5.215µs
+
+RUN 3:
+- Analysis of the bytecode completed in 4.119042ms
+- Net built in 5.27µs
+
+RUN 4:
+- Analysis of the bytecode completed in 4.011478ms
+- Net built in 5.352µs
+
+RUN 5:
+- Analysis of the bytecode completed in 4.502207ms
+Net built in 5.492µs
+
+RUN 6:
+- Analysis of the bytecode completed in 4.103022ms
+- Net built in 5.913µs
+
+RUN 7:
+- Analysis of the bytecode completed in 4.097487ms
+- Net built in 7.131µs
+
+RUN 8:
+- Analysis of the bytecode completed in 4.459199ms
+- Net built in 9.989µs
+
+RUN 9:
+- Analysis of the bytecode completed in 4.850838ms
+- Net built in 7.157µs
+
+RUN 10:
+- Analysis of the bytecode completed in 4.132042ms
+- Net built in 5.251µs
