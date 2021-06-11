@@ -1,4 +1,4 @@
-Here we report the average time of performing the analysis with cldb 
+Here, we report the average time of performing the analysis with cldb 
 (below the raw data for the 10 runs).
 
 The average time is 4.4ms where
