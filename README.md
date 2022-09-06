@@ -1,7 +1,7 @@
 # README - A theory of transaction parallelism in blockchains
 
 This repository contains the data and the scripts used for the experimental evaluation described in the paper 
-> [M. Bartoletti, L. Galletta and M. Murgia. A theory of transaction parallelism in blockchains](https://arxiv.org/abs/2011.13837), Manuscript under review, 2021.
+> [M. Bartoletti, L. Galletta and M. Murgia. A theory of transaction parallelism in blockchains](https://lmcs.episciences.org/8722/pdf), Log. Methods Comput. Sci. 17(4), 2021.
 
 ## Tools used for the experiment
 - [Go Ethereum](https://geth.ethereum.org/) v1.10.3-stable-991384a7
